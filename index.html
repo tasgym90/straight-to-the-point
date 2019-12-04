@@ -6,14 +6,15 @@
   </head>
   <body>
     <header>
+      <img src="images/aarow-logo.png" alt="Aarow logo">
+      <img src="images/header-arrow.PNG" alt="Straight to the point logo">
       <h1>Straight to the Point</h1>
-      <img src="#" alt="Straight to the point logo">
       <nav>
         <ul>
-          <li>Classes</li>
-          <li>About</li>
-          <li>Events</li>
-          <li>Sign-up</li>
+          <li><a href="class-page.html">Classes</a></li>
+          <li><a href="about-page.html">About</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="events-page.html">Sign-up</a></li>
         </ul>
       </nav>
     </header>
@@ -26,6 +27,7 @@
       </p>
     </main>
     <section>
+      <h2>This week's schedule</h2>
       <table>
         <tr>
           <th>Time</th>
@@ -123,12 +125,17 @@
       </ul>
     </section>
     <aside>
-      <h3>Instructor Spotlight</h3>
-      <p>Derek Jenkens</p>
-      <p>Amy Smith</p>
-      <p>Nathan Lee</p>
+      <div class="flex-container">
+        <h3>Instructor Spotlight</h3>
+        <div class="flex-item flex-item-1"><img src="images/amy-smith.png" alt="picture of Amy Smith">Amy Smith</div>
+        <div class="flex-item flex-item-2"><img src="images/nathan.png" alt="picture of Nathan">Nathan Lee</div>
+        <div class="flex-item flex-item-3"><img src="images/derek.png" alt="picture of Derek">Derek</div>
+      </div>
     </aside>
     <footer>
+      <img src="images/aarow-logo.png" alt="Aarow logo">
+      <p>528 Nock Point Ln, Tacoma, WA 98412</p>
+      <p>253)555-1010</p>
     </footer>
   </body>
 </html>
